@@ -54,12 +54,15 @@ TARGET_SCREEN_DENSITY := 440
 
 # HIDL Vintf
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
-    $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml \
+    $(DEVICE_PATH)/configs/vintf/framework_matrix.xml
 
-DEVICE_MANIFEST_FILE := \
+DEVICE_FRAMEWORK_MANIFEST_FILE += \
+    $(DEVICE_PATH)/configs/vintf/framework_manifest.xml \
+
+DEVICE_MANIFEST_FILE += \
     $(DEVICE_PATH)/configs/vintf/manifest.xml
 
-DEVICE_MATRIX_FILE := \
+DEVICE_MATRIX_FILE += \
     $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # Kernel
@@ -72,7 +75,8 @@ BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.memcg=1 \
     androidboot.usbcontroller=a600000.dwc3 \
-    androidboot.selinux=permissive
+    androidboot.selinux=permissive \
+    androidboot.init_fatal_reboot_target=recovery
 
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_BOOT_HEADER_VERSION := 4
@@ -167,7 +171,12 @@ AB_OTA_PARTITIONS += \
     vbmeta \
     vbmeta_system \
     vendor_boot \
-    $(BOARD_SKY_DYNAMIC_PARTITIONS_PARTITION_LIST)
+    odm \
+    product \
+    system \
+    system_ext \
+    vendor_dlkm \
+    vendor
 
 # WiFi
 WIFI_DRIVER_STATE_CTRL_PARAM := "/dev/wlan"
