@@ -111,7 +111,6 @@ ro.miui.ui.version.name=V816
 ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
 ro.netflix.signup=1
 ro.opa.eligible_device=true
-ro.product.ab_ota_partitions=product
 ro.product.cpu.pagesize.max=4096
 ro.product.product.cert=
 ro.product.product.marketname=
