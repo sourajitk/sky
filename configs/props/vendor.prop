@@ -81,7 +81,6 @@ dalvik.vm.heaptargetutilization=0.75
 persist.sys.dalvik.vm.lib.2=libart.so
 
 # Display
-sys.displayfeature_hidl=true
 vendor.display.comp_mask=0
 vendor.display.disable_3d_adaptive_tm=1
 vendor.display.disable_dynamic_sf_idle=1
