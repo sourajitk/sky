@@ -691,6 +691,34 @@ vendor/lib64/vendor.display.color@1.7.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
+# Display (OSS)
+vendor/bin/hw/vendor.qti.hardware.display.allocator-service
+vendor/bin/hw/vendor.qti.hardware.display.composer-service
+vendor/bin/hw/vendor.qti.hardware.display.demura-service
+vendor/bin/init.qti.display_boot.sh
+vendor/etc/init/init.qti.display_boot.rc
+vendor/etc/init/vendor.qti.hardware.display.allocator-service.rc
+vendor/etc/init/vendor.qti.hardware.display.composer-service.rc
+vendor/etc/init/vendor.qti.hardware.display.demura-service.rc
+-vendor/etc/vintf/manifest/android.hardware.graphics.mapper-impl-qti-display.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.allocator-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.composer-service.xml
+-vendor/etc/vintf/manifest/vendor.qti.hardware.display.demura-service.xml
+vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
+vendor/lib64/libdisplayconfig.qti.so
+vendor/lib64/libdisplayconfig.so
+vendor/lib64/libdisplaydebug.so
+vendor/lib64/libgpu_tonemapper.so
+vendor/lib64/libgralloc.qti.so
+vendor/lib64/libgralloctypes.so
+vendor/lib64/libgrallocutils.so
+vendor/lib64/libqdMetaData.so
+vendor/lib64/libqdutils.so
+vendor/lib64/libqservice.so
+vendor/lib64/libsdmcore.so
+vendor/lib64/libsdmutils.so
+vendor/lib64/vendor.qti.hardware.display.demura@2.0.so
+
 # Display Configs
 vendor/etc/display/DPU660.xml
 vendor/etc/display/DPU670.xml
