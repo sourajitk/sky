@@ -62,6 +62,11 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
+vendor/lib/libadsp_default_listener.so
+vendor/lib/libadsprpc.so
+vendor/lib/libmctfengine_stub.so
+vendor/lib/libsdsprpc.so
+vendor/lib/libvmmem.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libmctfengine_stub.so
