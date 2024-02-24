@@ -89,6 +89,7 @@ PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
     libc++_shared.vendor \
     libcamera2ndk_vendor \
+    libstdc++_vendor \
     vendor.qti.hardware.camera.aon@1.0.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor
@@ -140,7 +141,8 @@ PRODUCT_COPY_FILES += \
 # GNSS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.1.vendor \
-    android.hardware.gnss-V1-ndk_platform.vendor
+    android.hardware.gnss-V1-ndk_platform.vendor \
+    android.hardware.power@1.2.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
