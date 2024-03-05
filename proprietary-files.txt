@@ -100,11 +100,11 @@ vendor/lib64/libAlacSwDec.so
 vendor/lib64/libApeSwDec.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libadm.so
-vendor/lib64/libagm.so
+-vendor/lib64/libagm.so
 vendor/lib64/libar-acdb.so
 vendor/lib64/libar-gpr.so
 vendor/lib64/libar-gsl.so
-vendor/lib64/libar-pal.so
+-vendor/lib64/libar-pal.so
 vendor/lib64/libats.so
 vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libaudiocloudctrl.so
@@ -123,9 +123,7 @@ vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_common_so.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqtigefar.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0.so
-vendor/lib64/vendor.qti.hardware.pal@1.0.so
+-vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
 
 # Audio (FX modules)
 vendor/lib64/soundfx/libasphere.so
